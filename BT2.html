@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính điểm sinh viên</title>
+</head>
+<body>
+<script>
+    var a = parseFloat(prompt("diem chuyen can:",''));
+    var b = parseFloat(prompt("diem giua ky:",''));
+    var c = parseFloat(prompt("diem cuoi ky:",''));
+    var TB = (a+b+c)/3
+    if( TB > 9){alert("loai A")
+    } else if(TB >= 7 && TB < 9){
+        alert("loai B")
+    } else if(TB >= 5 && TB < 7){
+        alert("loai C")
+    } else {alert("loai D")}
+
+</script>
+</body>
+</html>
